@@ -1,0 +1,1 @@
+# GERADOR-de-foto
